@@ -1,0 +1,112 @@
+#exampleModal > div > div > div {
+  margin-top: auto;
+}
+
+#centerModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.logo {
+  color: rgb(28, 103, 241);
+  font-size: 24px;
+}
+
+.logo small {
+  color: cornflowerblue;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+div.progress {
+  height: 25px;
+}
+
+#poll-holder {
+  max-width: 400px;
+  min-width: 260px;
+}
+
+.progressValue {
+  margin: auto;
+}
+
+.progress-bar {
+  background-color: cornflowerblue;
+  transition: 0.6s ease all;
+  animation: 1.2s fillUp 1;
+}
+
+#poll-holder > div > div > div {
+  background-color: cornflowerblue;
+}
+
+.poll-sumit-btn {
+  width: max-content;
+  height: max-content;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.progress-holder {
+  margin-top: 20px;
+}
+
+#voteCheck {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #28a745;
+  font-size: 13px;
+}
+
+#voteCheck .name{
+    font-size: 14px;
+    margin: 0 5px;
+    color: cornflowerblue;
+}
+
+
+@keyframes fillUp {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes In {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.In {
+  transition: 0.4s ease all;
+  animation: 0.9s In 1 forwards;
+}
+
+@keyframes Out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.Out {
+  transition: 0.4s ease all;
+  animation: 0.9s Out 1 forwards;
+}
